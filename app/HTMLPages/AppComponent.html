@@ -1,0 +1,25 @@
+﻿
+<style>
+    .clicked{
+        color:red;
+        
+    }
+</style>
+<table border="1" width="99%" height="99%">
+    <tr>
+        <td colspan="2" style="text-align:center;background-color:#FD9B36;height:60px;font-size:20px;font-weight:bold;"><marquee  direction="right">Website Devolped by using Angular2.0</marquee></td>
+    </tr>
+    <tr>
+        <td valign="top" style="width:200px;">
+            <span (click)="onSelect()" [class.clicked]="showDetails==true" style="padding:8px;"><u>Atpar</u></span>
+            <menu-app *ngIf="showDetails==true"></menu-app>
+        </td>
+        <td style="padding:20px;" align="center">
+            <router-outlet></router-outlet>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align:center;background-color:#FD9B36;height:60px;font-weight:bold;"><marquee>@Copyrights By Microsoft Corporation.</marquee></td>
+    </tr>
+</table>
+

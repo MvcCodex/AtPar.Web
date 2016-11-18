@@ -1,0 +1,26 @@
+﻿<table border="1" style="text-align:center;background-color:#8CD3FD;">
+    <tr>
+        <th>User ID</th>
+        <th>Passhash</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Middle Initial</th>
+        <th>Email id</th>
+        <th>Phone1</th>
+        <th>Phone1</th>
+        <th>Fax</th>
+        <th>Pager</th>
+    </tr>
+    <tr *ngFor="let item of _Alldetails">
+        <td>{{item.USER_ID}}</td>
+        <td> {{item.PASSHASH}}</td>
+        <td> {{item.FIRST_NAME}}</td>
+        <td> {{item.LAST_NAME}}</td>
+        <td> {{item.MIDDLE_INITIAL}}</td>
+        <td> {{item.EMAIL_ID}}</td>
+        <td> {{item.PHONE1}}</td>
+        <td> {{item.PHONE2}}</td>
+        <td> {{item.FAX}}</td>
+        <td> {{item.PAGER}}</td>
+    </tr>
+</table>

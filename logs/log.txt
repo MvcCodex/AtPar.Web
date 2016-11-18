@@ -1,0 +1,736 @@
+DEBUG 2016-10-20 18:59:43,567 10280ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-20 18:59:43,692 10405ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-10-20 18:59:43,695 10408ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-10-20 18:59:43,696 10409ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-10-20 18:59:43,697 10410ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-10-20 18:59:49,738 16451ms UserRepository         GetAllUsers        - Before log
+
+DEBUG 2016-10-20 19:00:01,785 28498ms UserRepository         GetAllUsers>b__3_0 - Opened connection at 10/20/2016 7:00:01 PM +05:30
+
+DEBUG 2016-10-20 19:00:02,202 28914ms UserRepository         GetAllUsers>b__3_0 - SELECT 
+    [Extent1].[USER_ID] AS [USER_ID], 
+    [Extent1].[PASSHASH] AS [PASSHASH], 
+    [Extent1].[FIRST_NAME] AS [FIRST_NAME], 
+    [Extent1].[LAST_NAME] AS [LAST_NAME], 
+    [Extent1].[MIDDLE_INITIAL] AS [MIDDLE_INITIAL], 
+    [Extent1].[EMAIL_ID] AS [EMAIL_ID], 
+    [Extent1].[PHONE1] AS [PHONE1], 
+    [Extent1].[PHONE2] AS [PHONE2], 
+    [Extent1].[FAX] AS [FAX], 
+    [Extent1].[PAGER] AS [PAGER], 
+    [Extent1].[HINT_QUESTION] AS [HINT_QUESTION], 
+    [Extent1].[HINT_ANSWER] AS [HINT_ANSWER], 
+    [Extent1].[CREATE_USER_ID] AS [CREATE_USER_ID], 
+    [Extent1].[CREATE_DATE] AS [CREATE_DATE], 
+    [Extent1].[PROFILE_ID] AS [PROFILE_ID], 
+    [Extent1].[LDAP_USER] AS [LDAP_USER], 
+    [Extent1].[LDAP_ROLE] AS [LDAP_ROLE], 
+    [Extent1].[LDAP_ORG] AS [LDAP_ORG], 
+    [Extent1].[LAST_UPDATE_DATE] AS [LAST_UPDATE_DATE], 
+    [Extent1].[LAST_UPDATE_USER] AS [LAST_UPDATE_USER], 
+    [Extent1].[LAST_CLIENT_ADDRESS] AS [LAST_CLIENT_ADDRESS], 
+    [Extent1].[USERDN] AS [USERDN]
+    FROM [ATPAR_MT].[MT_ATPAR_USER] AS [Extent1]
+DEBUG 2016-10-20 19:00:02,205 28918ms UserRepository         GetAllUsers>b__3_0 - 
+
+DEBUG 2016-10-20 19:00:02,206 28919ms UserRepository         GetAllUsers>b__3_0 - -- Executing at 10/20/2016 7:00:02 PM +05:30
+
+DEBUG 2016-10-20 19:00:02,221 28934ms UserRepository         GetAllUsers>b__3_0 - -- Completed in 14 ms with result: SqlDataReader
+
+DEBUG 2016-10-20 19:00:02,223 28935ms UserRepository         GetAllUsers>b__3_0 - 
+
+DEBUG 2016-10-20 19:00:02,232 28944ms UserRepository         GetAllUsers>b__3_0 - Closed connection at 10/20/2016 7:00:02 PM +05:30
+
+DEBUG 2016-10-24 15:29:11,917  7411ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-24 15:29:12,278  7772ms HomeController         Index              - Debug message Dilip
+WARN  2016-10-24 15:29:12,280  7774ms HomeController         Index              - Warn message Abhi
+ERROR 2016-10-24 15:29:12,280  7774ms HomeController         Index              - Error message
+FATAL 2016-10-24 15:29:12,280  7774ms HomeController         Index              - Fatal message
+DEBUG 2016-10-24 15:30:10,453 65947ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-24 15:30:10,589 66083ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-10-24 15:30:10,590 66084ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-10-24 15:30:10,590 66084ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-10-24 15:30:10,590 66084ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-10-24 15:30:30,652 86146ms UserRepository         GetAllUsers        - Before log
+DEBUG 2016-10-24 15:30:31,454 86948ms UserRepository         GetAllUsers>b__3_0 - Opened connection at 10/24/2016 3:30:31 PM +05:30
+
+DEBUG 2016-10-24 15:30:32,108 87602ms UserRepository         GetAllUsers>b__3_0 - SELECT 
+    [Extent1].[USER_ID] AS [USER_ID], 
+    [Extent1].[PASSHASH] AS [PASSHASH], 
+    [Extent1].[FIRST_NAME] AS [FIRST_NAME], 
+    [Extent1].[LAST_NAME] AS [LAST_NAME], 
+    [Extent1].[MIDDLE_INITIAL] AS [MIDDLE_INITIAL], 
+    [Extent1].[EMAIL_ID] AS [EMAIL_ID], 
+    [Extent1].[PHONE1] AS [PHONE1], 
+    [Extent1].[PHONE2] AS [PHONE2], 
+    [Extent1].[FAX] AS [FAX], 
+    [Extent1].[PAGER] AS [PAGER], 
+    [Extent1].[HINT_QUESTION] AS [HINT_QUESTION], 
+    [Extent1].[HINT_ANSWER] AS [HINT_ANSWER], 
+    [Extent1].[CREATE_USER_ID] AS [CREATE_USER_ID], 
+    [Extent1].[CREATE_DATE] AS [CREATE_DATE], 
+    [Extent1].[PROFILE_ID] AS [PROFILE_ID], 
+    [Extent1].[LDAP_USER] AS [LDAP_USER], 
+    [Extent1].[LDAP_ROLE] AS [LDAP_ROLE], 
+    [Extent1].[LDAP_ORG] AS [LDAP_ORG], 
+    [Extent1].[LAST_UPDATE_DATE] AS [LAST_UPDATE_DATE], 
+    [Extent1].[LAST_UPDATE_USER] AS [LAST_UPDATE_USER], 
+    [Extent1].[LAST_CLIENT_ADDRESS] AS [LAST_CLIENT_ADDRESS], 
+    [Extent1].[USERDN] AS [USERDN]
+    FROM [ATPAR_MT].[MT_ATPAR_USER] AS [Extent1]
+DEBUG 2016-10-24 15:30:32,158 87652ms UserRepository         GetAllUsers>b__3_0 - 
+
+DEBUG 2016-10-24 15:30:32,160 87654ms UserRepository         GetAllUsers>b__3_0 - -- Executing at 10/24/2016 3:30:32 PM +05:30
+
+DEBUG 2016-10-24 15:30:32,348 87842ms UserRepository         GetAllUsers>b__3_0 - -- Completed in 186 ms with result: SqlDataReader
+
+DEBUG 2016-10-24 15:30:32,349 87843ms UserRepository         GetAllUsers>b__3_0 - 
+
+DEBUG 2016-10-24 15:30:32,360 87853ms UserRepository         GetAllUsers>b__3_0 - Closed connection at 10/24/2016 3:30:32 PM +05:30
+
+DEBUG 2016-10-26 16:44:54,551  6280ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-26 16:44:54,933  6661ms HomeController         Index              - Debug message Dilip
+WARN  2016-10-26 16:44:54,934  6662ms HomeController         Index              - Warn message Abhi
+ERROR 2016-10-26 16:44:54,934  6663ms HomeController         Index              - Error message
+FATAL 2016-10-26 16:44:54,934  6663ms HomeController         Index              - Fatal message
+DEBUG 2016-10-26 17:09:10,208   313ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-26 17:09:10,483   589ms HomeController         Index              - Debug message Dilip
+WARN  2016-10-26 17:09:10,485   590ms HomeController         Index              - Warn message Abhi
+ERROR 2016-10-26 17:09:10,485   591ms HomeController         Index              - Error message
+FATAL 2016-10-26 17:09:10,486   591ms HomeController         Index              - Fatal message
+DEBUG 2016-10-30 18:49:38,922   420ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-30 18:49:39,210   709ms HomeController         Index              - Debug message Dilip
+WARN  2016-10-30 18:49:39,212   711ms HomeController         Index              - Warn message Abhi
+ERROR 2016-10-30 18:49:39,212   711ms HomeController         Index              - Error message
+FATAL 2016-10-30 18:49:39,212   711ms HomeController         Index              - Fatal message
+DEBUG 2016-10-30 19:02:24,227   326ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-30 19:02:24,492   591ms HomeController         Index              - Debug message Dilip
+WARN  2016-10-30 19:02:24,493   592ms HomeController         Index              - Warn message Abhi
+ERROR 2016-10-30 19:02:24,494   593ms HomeController         Index              - Error message
+FATAL 2016-10-30 19:02:24,494   593ms HomeController         Index              - Fatal message
+DEBUG 2016-10-30 19:07:16,096   391ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-30 19:07:16,363   658ms HomeController         Index              - Debug message Dilip
+WARN  2016-10-30 19:07:16,364   659ms HomeController         Index              - Warn message Abhi
+ERROR 2016-10-30 19:07:16,365   660ms HomeController         Index              - Error message
+FATAL 2016-10-30 19:07:16,365   660ms HomeController         Index              - Fatal message
+DEBUG 2016-10-30 19:08:15,036   316ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-30 19:08:15,312   592ms HomeController         Index              - Debug message Dilip
+WARN  2016-10-30 19:08:15,314   594ms HomeController         Index              - Warn message Abhi
+ERROR 2016-10-30 19:08:15,314   594ms HomeController         Index              - Error message
+FATAL 2016-10-30 19:08:15,315   595ms HomeController         Index              - Fatal message
+DEBUG 2016-10-30 19:11:16,472   330ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-10-30 19:11:16,738   596ms HomeController         Index              - Debug message Dilip
+WARN  2016-10-30 19:11:16,740   598ms HomeController         Index              - Warn message Abhi
+ERROR 2016-10-30 19:11:16,740   598ms HomeController         Index              - Error message
+FATAL 2016-10-30 19:11:16,740   598ms HomeController         Index              - Fatal message
+DEBUG 2016-10-31 11:15:10,988   353ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-03 16:33:39,807   376ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-03 16:33:47,932  8501ms HomeController         Index              - Debug message Dilip
+WARN  2016-11-03 16:33:47,932  8502ms HomeController         Index              - Warn message Abhi
+ERROR 2016-11-03 16:33:47,933  8503ms HomeController         Index              - Error message
+FATAL 2016-11-03 16:33:47,933  8503ms HomeController         Index              - Fatal message
+DEBUG 2016-11-03 16:34:00,358 20927ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-04 11:16:07,765   317ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-04 11:16:45,407   435ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-04 11:16:49,484  4513ms HomeController         Index              - Debug message Dilip
+WARN  2016-11-04 11:16:49,485  4514ms HomeController         Index              - Warn message Abhi
+ERROR 2016-11-04 11:16:49,486  4515ms HomeController         Index              - Error message
+FATAL 2016-11-04 11:16:49,486  4515ms HomeController         Index              - Fatal message
+DEBUG 2016-11-04 11:21:30,448  7633ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-04 11:21:33,555 10740ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-04 11:21:33,555 10740ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-04 11:21:33,555 10740ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-04 11:21:33,555 10740ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-04 11:21:36,216 13401ms UserRepository         GetAllUsers        - Before log
+DEBUG 2016-11-04 11:21:36,394 13578ms UserRepository         GetAllUsers>b__3_0 - Opened connection at 11/4/2016 11:21:36 AM +05:30
+
+DEBUG 2016-11-04 11:21:36,949 14134ms UserRepository         GetAllUsers>b__3_0 - SELECT 
+    [Extent1].[USER_ID] AS [USER_ID], 
+    [Extent1].[PASSHASH] AS [PASSHASH], 
+    [Extent1].[FIRST_NAME] AS [FIRST_NAME], 
+    [Extent1].[LAST_NAME] AS [LAST_NAME], 
+    [Extent1].[MIDDLE_INITIAL] AS [MIDDLE_INITIAL], 
+    [Extent1].[EMAIL_ID] AS [EMAIL_ID], 
+    [Extent1].[PHONE1] AS [PHONE1], 
+    [Extent1].[PHONE2] AS [PHONE2], 
+    [Extent1].[FAX] AS [FAX], 
+    [Extent1].[PAGER] AS [PAGER], 
+    [Extent1].[HINT_QUESTION] AS [HINT_QUESTION], 
+    [Extent1].[HINT_ANSWER] AS [HINT_ANSWER], 
+    [Extent1].[CREATE_USER_ID] AS [CREATE_USER_ID], 
+    [Extent1].[CREATE_DATE] AS [CREATE_DATE], 
+    [Extent1].[PROFILE_ID] AS [PROFILE_ID], 
+    [Extent1].[LDAP_USER] AS [LDAP_USER], 
+    [Extent1].[LDAP_ROLE] AS [LDAP_ROLE], 
+    [Extent1].[LDAP_ORG] AS [LDAP_ORG], 
+    [Extent1].[LAST_UPDATE_DATE] AS [LAST_UPDATE_DATE], 
+    [Extent1].[LAST_UPDATE_USER] AS [LAST_UPDATE_USER], 
+    [Extent1].[LAST_CLIENT_ADDRESS] AS [LAST_CLIENT_ADDRESS], 
+    [Extent1].[USERDN] AS [USERDN]
+    FROM [ATPAR_MT].[MT_ATPAR_USER] AS [Extent1]
+DEBUG 2016-11-04 11:21:36,965 14150ms UserRepository         GetAllUsers>b__3_0 - 
+
+DEBUG 2016-11-04 11:21:36,965 14150ms UserRepository         GetAllUsers>b__3_0 - -- Executing at 11/4/2016 11:21:36 AM +05:30
+
+DEBUG 2016-11-04 11:21:37,094 14279ms UserRepository         GetAllUsers>b__3_0 - -- Completed in 119 ms with result: SqlDataReader
+
+DEBUG 2016-11-04 11:21:37,095 14280ms UserRepository         GetAllUsers>b__3_0 - 
+
+DEBUG 2016-11-04 11:21:37,105 14290ms UserRepository         GetAllUsers>b__3_0 - Closed connection at 11/4/2016 11:21:37 AM +05:30
+
+DEBUG 2016-11-04 11:21:39,620 16805ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-04 11:21:41,207 18392ms HomeController         Index              - Debug message Dilip
+WARN  2016-11-04 11:21:41,208 18393ms HomeController         Index              - Warn message Abhi
+ERROR 2016-11-04 11:21:41,209 18394ms HomeController         Index              - Error message
+FATAL 2016-11-04 11:21:41,210 18395ms HomeController         Index              - Fatal message
+DEBUG 2016-11-16 09:59:48,659 10592ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:03:36,607   114ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:07:40,741  2013ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:09:04,185   154ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:11:21,023   112ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:13:27,660   116ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:15:15,293   106ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:15:31,429 16242ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:16:44,052   108ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:18:45,450   161ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:26:59,147   110ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:29:31,774   108ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 10:43:35,096   105ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 15:42:42,693   125ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 15:43:47,832   153ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 15:44:47,430   115ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 15:47:08,029 140715ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 15:47:15,914 148599ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 15:47:16,302 148987ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 15:47:16,656 149342ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 15:47:17,146 149831ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 15:47:25,650 158336ms UserRepository         GetAllUsers        - Before log
+DEBUG 2016-11-16 15:47:44,440 177125ms UserRepository         GetAllUsers>b__3_0 - Failed to open connection at 16-Nov-16 3:47:41 PM +05:30 with error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+DEBUG 2016-11-16 15:49:01,870 254555ms UserRepository         GetAllUsers>b__3_0 - Failed to open connection at 16-Nov-16 3:49:01 PM +05:30 with error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+DEBUG 2016-11-16 15:58:39,311   111ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 15:58:39,319   119ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 15:58:52,810 13610ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 15:58:53,234 14034ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 15:58:53,655 14455ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 15:58:54,102 14902ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:01:45,309 186109ms UserRepository         GetAllUsers        - Before log
+DEBUG 2016-11-16 16:02:28,766 229566ms UserRepository         GetAllUsers>b__3_0 - Failed to open connection at 16-Nov-16 4:02:28 PM +05:30 with error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+DEBUG 2016-11-16 16:15:06,372   113ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:15:18,875 12617ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:15:19,259 13001ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:15:19,516 13258ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:15:19,817 13559ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:15:46,988 40730ms UserRepository         GetAllUsers        - Before log
+DEBUG 2016-11-16 16:16:10,882 64624ms UserRepository         GetAllUsers>b__3_0 - Failed to open connection at 16-Nov-16 4:16:09 PM +05:30 with error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+
+DEBUG 2016-11-16 16:24:56,858   109ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:25:01,876  5127ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:25:02,374  5625ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:25:02,679  5930ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:25:03,081  6333ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:27:35,154   163ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:27:41,362  6371ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:27:41,618  6627ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:27:41,865  6874ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:27:42,110  7119ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:37:15,775   116ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:37:20,293  4634ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:37:20,568  4909ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:37:21,022  5363ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:37:21,213  5554ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:41:49,074   109ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:41:57,187  8222ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:41:57,189  8224ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:41:57,189  8224ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:41:57,190  8225ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:44:30,906   111ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:44:33,579  2783ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:44:33,583  2787ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:44:33,584  2788ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:44:33,585  2789ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:52:21,321   113ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:52:23,745  2538ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:52:23,748  2541ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:52:23,749  2542ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:52:23,750  2543ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:54:30,361   112ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:54:33,352  3103ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:54:33,354  3105ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:54:33,354  3105ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:54:33,355  3106ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:56:13,823   135ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:56:13,824   136ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:56:18,649  4961ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:56:18,651  4963ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:56:18,651  4963ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:56:18,652  4964ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:56:30,325 16637ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:56:33,097 19408ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:56:33,097 19408ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:56:33,098 19409ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:56:33,098 19409ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 16:59:00,020   140ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:59:00,020   140ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 16:59:02,701  2821ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 16:59:02,703  2823ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 16:59:02,703  2823ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 16:59:02,703  2823ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 17:05:34,830   144ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 17:05:50,247 15561ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 17:05:50,960 16275ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 17:05:51,616 16930ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 17:05:52,282 17597ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 17:07:29,987   116ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 17:07:34,044  4173ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 17:07:34,046  4175ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 17:07:34,047  4176ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 17:07:34,047  4176ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 17:12:25,011   110ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 17:12:31,424  6523ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 17:12:31,428  6527ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 17:12:31,429  6528ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 17:12:31,430  6529ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 17:14:55,032   111ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 17:14:58,938  4016ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 17:14:58,940  4018ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 17:14:58,940  4018ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 17:14:58,941  4019ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 17:32:20,502   114ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 17:32:23,165  2777ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 17:32:23,168  2780ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 17:32:23,169  2781ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 17:32:23,169  2781ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 17:36:33,946   105ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 17:36:39,002  5162ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 17:36:39,276  5436ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 17:36:39,821  5981ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 17:36:40,503  6663ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 17:37:34,104 60264ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 17:37:39,380 65540ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 17:37:39,381 65541ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 17:37:39,381 65541ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 17:37:39,381 65541ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:17:22,142 44741ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:17:26,550 49149ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:17:27,092 49692ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:17:27,453 50052ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:17:27,977 50576ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:18:49,787 132386ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:26:05,445 17605ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:26:23,321 35480ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:26:23,823 35983ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:26:24,201 36360ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:26:24,711 36871ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:26:40,494 52653ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:26:40,495 52654ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:26:40,495 52654ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:26:40,496 52655ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:26:40,497 52656ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:32:39,967 38192ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:32:40,006 38230ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:32:40,007 38231ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:32:40,007 38231ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:32:40,008 38232ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:33:56,247  9849ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:33:56,266  9868ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:33:56,269  9871ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:33:56,269  9871ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:33:56,270  9872ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:37:08,397  8124ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:37:08,415  8142ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:37:08,417  8144ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:37:08,417  8144ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:37:08,417  8144ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:41:23,217 13540ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:41:23,236 13559ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:41:23,238 13561ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:41:23,238 13561ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:41:23,239 13562ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:46:18,242 64712ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:46:18,262 64732ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:46:18,263 64733ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:46:18,263 64733ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:46:18,264 64734ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:47:08,227  6388ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:47:08,247  6407ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:47:08,248  6409ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:47:08,248  6409ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:47:08,249  6410ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:47:43,023 41183ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:47:43,024 41184ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:47:43,025 41185ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:47:43,025 41185ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:47:43,025 41185ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:47:44,655 42816ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:47:44,656 42817ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:47:44,657 42818ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:47:44,657 42818ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:47:44,657 42818ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:47:46,081 44242ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:47:46,082 44243ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:47:46,082 44243ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:47:46,082 44243ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:47:46,083 44244ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:47:47,520 45680ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:47:47,520 45680ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:47:47,521 45681ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:47:47,521 45681ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:47:47,521 45681ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:47:51,806 49966ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:47:51,808 49968ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:47:51,809 49969ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:47:51,809 49969ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:47:51,809 49969ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:47:52,743 50903ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:47:52,743 50903ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:47:52,744 50904ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:47:52,745 50905ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:47:52,745 50905ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:48:19,751  3084ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:48:19,770  3103ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:48:19,772  3105ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:48:19,772  3105ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:48:19,772  3105ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 18:52:14,584  7666ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 18:52:14,608  7690ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 18:52:14,610  7692ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 18:52:14,610  7692ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 18:52:14,611  7693ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:00:43,780 14442ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:00:43,799 14461ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:00:43,800 14462ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:00:43,800 14462ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:00:43,801 14463ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:03:34,258  3723ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:03:34,276  3741ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:03:34,277  3742ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:03:34,277  3742ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:03:34,278  3743ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:05:09,440  2831ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:05:09,458  2849ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:05:09,460  2851ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:05:09,461  2852ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:05:09,461  2852ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:05:11,063  4454ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:05:11,064  4455ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:05:11,064  4455ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:05:11,064  4455ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:05:11,064  4455ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:05:14,196  7588ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:05:14,197  7589ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:05:14,197  7589ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:05:14,197  7589ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:05:14,197  7589ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:12:12,735  2804ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:12:12,756  2825ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:12:12,758  2827ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:12:12,758  2827ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:12:12,758  2827ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:12:14,256  4324ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:12:14,257  4325ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:12:14,257  4325ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:12:14,258  4326ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:12:14,258  4326ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:12:16,413  6482ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:12:16,413  6482ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:12:16,414  6483ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:12:16,414  6483ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:12:16,414  6483ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:16:27,300  3296ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:16:27,315  3312ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:16:27,315  3312ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:16:27,315  3312ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:16:27,315  3312ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-16 19:16:30,909  6906ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-16 19:16:30,909  6906ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-16 19:16:30,909  6906ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-16 19:16:30,909  6906ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-16 19:16:30,909  6906ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 09:30:22,196 12128ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 09:30:22,239 12171ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 09:30:22,239 12171ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 09:30:22,239 12171ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 09:30:22,239 12171ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 09:30:27,761 17694ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 09:30:27,762 17695ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 09:30:27,762 17695ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 09:30:27,763 17696ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 09:30:27,763 17696ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 09:51:51,129  5433ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 09:51:51,151  5455ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 09:51:51,152  5456ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 09:51:51,153  5457ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 09:51:51,153  5457ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 09:52:17,104 31407ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 09:52:17,105 31408ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 09:52:17,105 31408ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 09:52:17,105 31408ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 09:52:17,106 31409ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:03:07,206  3095ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:03:07,230  3119ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:03:07,232  3121ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:03:07,232  3121ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:03:07,232  3121ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:13:49,565  3029ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:13:49,583  3047ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:13:49,584  3048ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:13:49,585  3049ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:13:49,585  3049ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:14:22,803 36267ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:14:22,803 36267ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:14:22,804 36268ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:14:22,804 36268ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:14:22,804 36268ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:14:25,250 38714ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:14:25,251 38715ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:14:25,251 38715ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:14:25,251 38715ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:14:25,252 38716ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:15:28,058 101522ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:15:28,058 101522ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:15:28,059 101523ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:15:28,059 101523ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:15:28,059 101523ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:16:19,481 152945ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:16:19,482 152946ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:16:19,482 152946ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:16:19,482 152946ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:16:19,482 152946ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:17:27,567 221031ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:17:27,568 221032ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:17:27,568 221032ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:17:27,568 221032ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:17:27,568 221032ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:24:31,156  2656ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:24:31,175  2675ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:24:31,176  2676ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:24:31,176  2676ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:24:31,177  2677ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:33:16,947  2697ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:33:16,966  2716ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:33:16,967  2717ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:33:16,968  2718ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:33:16,968  2718ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:34:10,836 56586ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:34:10,837 56587ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:34:10,837 56587ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:34:10,838 56588ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:34:10,838 56588ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 13:34:16,748 62498ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 13:34:16,749 62499ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 13:34:16,749 62499ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 13:34:16,749 62499ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 13:34:16,749 62499ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 15:20:36,418  3143ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 15:20:36,440  3165ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 15:20:36,442  3167ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 15:20:36,442  3167ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 15:20:36,442  3167ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 15:21:43,100  2296ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 15:21:43,116  2312ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 15:21:43,116  2312ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 15:21:43,116  2312ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 15:21:43,116  2312ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 15:23:46,944  2493ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 15:23:46,963  2512ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 15:23:46,965  2514ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 15:23:46,965  2514ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 15:23:46,965  2514ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:01:17,194  2351ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:01:17,212  2369ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:01:17,215  2372ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:01:17,215  2372ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:01:17,216  2373ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:01:26,491 11648ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:01:26,492 11649ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:01:26,492 11649ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:01:26,492 11649ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:01:26,492 11649ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:01:46,943 32100ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:01:46,944 32101ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:01:46,944 32101ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:01:46,944 32101ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:01:46,944 32101ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:01:53,039 38196ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:01:53,039 38196ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:01:53,039 38196ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:01:53,039 38196ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:01:53,039 38196ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:09:07,444 28999ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:09:07,460 29015ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:09:07,460 29015ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:09:07,460 29015ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:09:07,460 29015ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:09:09,241 30796ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:09:09,241 30796ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:09:09,241 30796ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:09:09,241 30796ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:09:09,241 30796ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:10:15,611  6140ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:10:15,642  6171ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:10:15,642  6171ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:10:15,642  6171ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:10:15,642  6171ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:16:01,400 22405ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:16:01,416 22421ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:16:01,416 22421ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:16:01,416 22421ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:16:01,416 22421ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:16:06,978 27984ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:16:06,978 27984ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:16:06,978 27984ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:16:06,978 27984ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:16:06,978 27984ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:33:43,830  2169ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:33:43,848  2187ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:33:43,850  2189ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:33:43,850  2189ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:33:43,850  2189ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:33:56,362 14702ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:33:56,362 14702ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:33:56,363 14703ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:33:56,363 14703ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:33:56,363 14703ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:43:53,997  2241ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:43:54,013  2257ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:43:54,015  2259ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:43:54,015  2259ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:43:54,015  2259ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:44:10,967 19211ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:44:10,967 19211ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:44:10,967 19211ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:44:10,968 19212ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:44:10,968 19212ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:44:15,356 23600ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:44:15,357 23601ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:44:15,357 23601ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:44:15,357 23601ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:44:15,357 23601ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:44:21,518 29763ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:44:21,518 29763ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:44:21,519 29764ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:44:21,519 29764ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:44:21,519 29764ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:47:06,878  2380ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:47:06,897  2399ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:47:06,900  2402ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:47:06,901  2403ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:47:06,901  2403ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:47:15,066 10569ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:47:15,066 10569ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:47:15,066 10569ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:47:15,066 10569ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:47:15,067 10570ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:47:48,998 44500ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:47:48,999 44501ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:47:48,999 44501ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:47:48,999 44501ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:47:49,000 44502ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:48:09,428 64931ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:48:09,429 64932ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:48:09,429 64932ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:48:09,429 64932ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:48:09,430 64933ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:51:56,641  2582ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:51:56,661  2602ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:51:56,663  2604ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:51:56,663  2604ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:51:56,663  2604ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:52:06,654 12595ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:52:06,655 12596ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:52:06,655 12596ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:52:06,655 12596ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:52:06,655 12596ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:55:52,829  2992ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:55:52,849  3012ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:55:52,853  3016ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:55:52,853  3016ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:55:52,854  3017ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-17 16:56:39,972 50136ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-17 16:56:39,973 50137ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-17 16:56:39,974 50138ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-17 16:56:39,975 50139ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-17 16:56:39,975 50139ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 09:45:45,181  2779ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 09:45:45,229  2827ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 09:45:45,231  2829ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 09:45:45,231  2829ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 09:45:45,231  2829ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 09:45:55,536 13135ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 09:45:55,537 13136ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 09:45:55,537 13136ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 09:45:55,537 13136ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 09:45:55,537 13136ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 09:47:43,216  6291ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 09:47:43,235  6310ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 09:47:43,238  6313ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 09:47:43,238  6313ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 09:47:43,239  6314ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 09:47:50,558 13633ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 09:47:50,559 13634ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 09:47:50,559 13634ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 09:47:50,559 13634ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 09:47:50,559 13634ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 09:47:53,413 16488ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 09:47:53,414 16489ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 09:47:53,414 16489ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 09:47:53,414 16489ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 09:47:53,414 16489ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 09:47:57,968 21043ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 09:47:57,969 21044ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 09:47:57,969 21044ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 09:47:57,969 21044ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 09:47:57,969 21044ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 09:52:32,330  3522ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 09:52:32,351  3543ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 09:52:32,352  3544ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 09:52:32,353  3545ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 09:52:32,353  3545ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 09:52:39,217 10409ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 09:52:39,218 10410ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 09:52:39,218 10410ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 09:52:39,218 10410ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 09:52:39,218 10410ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 11:22:38,261  3402ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 11:22:38,319  3460ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 11:22:38,321  3462ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 11:22:38,321  3462ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 11:22:38,321  3462ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 11:22:55,569 20709ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 11:22:55,569 20709ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 11:22:55,570 20710ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 11:22:55,570 20710ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 11:22:55,570 20710ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 11:33:22,715  4064ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 11:33:22,740  4089ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 11:33:22,742  4091ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 11:33:22,742  4091ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 11:33:22,743  4092ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 11:33:29,624 10973ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 11:33:29,625 10974ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 11:33:29,625 10974ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 11:33:29,625 10974ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 11:33:29,626 10975ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 11:34:18,335 59684ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 11:34:18,336 59685ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 11:34:18,336 59685ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 11:34:18,336 59685ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 11:34:18,336 59685ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 11:34:22,030 63379ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 11:34:22,030 63379ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 11:34:22,031 63380ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 11:34:22,031 63380ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 11:34:22,031 63380ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 11:34:26,278 67627ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 11:34:26,278 67627ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 11:34:26,279 67628ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 11:34:26,279 67628ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 11:34:26,279 67628ms UserService            GetAllUsers        - Fatal message from UserService
+DEBUG 2016-11-18 11:35:12,154  2913ms UserRepository         .ctor              - UserRepository
+DEBUG 2016-11-18 11:35:12,175  2934ms UserService            GetAllUsers        - Debug message from UserService Unity Log
+WARN  2016-11-18 11:35:12,177  2936ms UserService            GetAllUsers        - Warn message  from UserService
+ERROR 2016-11-18 11:35:12,179  2938ms UserService            GetAllUsers        - Error message from UserService
+FATAL 2016-11-18 11:35:12,179  2938ms UserService            GetAllUsers        - Fatal message from UserService

@@ -1,0 +1,289 @@
+﻿
+            <table id="ContentPlaceHolder1_dynTblERPSystemDetails" cellspacing="0" cellpadding="2" height="50%" align="center" style="border-color:LightGrey;border-width:2px;border-style:solid;width:100%;border-collapse:collapse;">
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSENTERPRISESYSTEM" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP System</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;">
+                        <select name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSENTERPRISESYSTEM">
+                            <option value="0">Select ERP System</option>
+                            <option value="1">GEAC</option>
+                            <option value="2">GEAC_AS400</option>
+                            <option value="3">IMMS</option>
+                            <option value="4">Lawson</option>
+                            <option value="5">Matkon</option>
+                            <option value="6">Meditech_ASCII</option>
+                            <option value="7">Meditech_CS</option>
+                            <option value="8">Meditech_Magic</option>
+                            <option value="9">Meditech_NUI</option>
+                            <option value="10">Meditech_XML</option>
+                            <option value="11">Oracle</option>
+                            <option selected="selected" value="12">PeopleSoft</option>
+                            <option value="13">PMM</option>
+                            <option value="14">SAP</option>
+
+                        </select>
+                    </td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system type to which AtPar is connecting]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSENTERPRISESYSTEM" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSENTERPRISESYSTEM" value="ALL" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSENTERPRISESYSTEM" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSENTERPRISESYSTEM" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSENTERPRISEVERSION" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP Version</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;">
+                        <select name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSENTERPRISEVERSION" id="ContentPlaceHolder1_ERP_SYS_DETAILSENTERPRISEVERSION" class="DataEntryListBox" onchange="Javascript:DisableRequiredControls(&#39;ERP_SYS_DETAILS&#39;,this);" style="width:150px;">
+                            <option value="0">SELECT ONE</option>
+                            <option value="1">8.0SP2</option>
+                            <option value="2">8.4</option>
+                            <option value="3">8.8</option>
+                            <option value="4">8.9</option>
+                            <option value="5">9.0</option>
+                            <option selected="selected" value="6">9.1</option>
+                            <option value="7">9.2</option>
+
+                        </select>
+                    </td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise System Version No.]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSENTERPRISEVERSION" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSENTERPRISEVERSION" value="All" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSENTERPRISEVERSION" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSENTERPRISEVERSION" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSDOWNLOADFROM" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Download From</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;">
+                        <select name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSDOWNLOADFROM" id="ContentPlaceHolder1_ERP_SYS_DETAILSDOWNLOADFROM" class="DataEntryListBox" onchange="Javascript:DisableRequiredControls(&#39;ERP_SYS_DETAILS&#39;,this);" style="width:150px;">
+                            <option value="0">SELECT ONE</option>
+                            <option selected="selected" value="1">PeopleSoft</option>
+
+                        </select>
+                    </td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Download From]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSDOWNLOADFROM" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSDOWNLOADFROM" value="All" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSDOWNLOADFROM" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSDOWNLOADFROM" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSUPLOADTO" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Upload To</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;">
+                        <select name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSUPLOADTO" id="ContentPlaceHolder1_ERP_SYS_DETAILSUPLOADTO" class="DataEntryListBox" onchange="Javascript:DisableRequiredControls(&#39;ERP_SYS_DETAILS&#39;,this);" style="width:150px;">
+                            <option value="0">SELECT ONE</option>
+                            <option selected="selected" value="1">PeopleSoft</option>
+
+                        </select>
+                    </td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Upload To]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSUPLOADTO" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSUPLOADTO" value="All" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSUPLOADTO" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSUPLOADTO" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPUSERID" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP Interface User ID</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPUSERID" type="text" value="admin" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPUSERID" title="Enter Erp Interface UserID" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Interface user id to communicate with enterprise system]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPUSERID" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPUSERID" value="PEOPLESOFT,LAWSON,MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,SAP" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPUSERID" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPUSERID" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPPASSWORD" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP Interface Password</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$PHdnERP_SYS_DETAILSERPPASSWORD" type="hidden" id="ContentPlaceHolder1_PHdnERP_SYS_DETAILSERPPASSWORD" /><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPPASSWORD" type="password" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPPASSWORD" class="DataEntryTextBox" onblur="Javascript:AddPwdValue(&#39;ContentPlaceHolder1_PHdnERP_SYS_DETAILSERPPASSWORD&#39;,this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Interface password to communicate with enterprise system]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPPASSWORD" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPPASSWORD" value="PEOPLESOFT,LAWSON,MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,SAP" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPPASSWORD" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPPASSWORD" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPSERVER" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP Server address</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPSERVER" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPSERVER" title="Enter Erp Server Address" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system address in format http://server name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPSERVER" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPSERVER" value="PEOPLESOFT,LAWSON,MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,SAP" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPSERVER" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPSERVER" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPPORTAL" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP Portal Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPPORTAL" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPPORTAL" title="Enter Portal Name" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system Portal name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPPORTAL" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPPORTAL" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPPORTAL" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPPORTAL" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPNODE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP Node Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPNODE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPNODE" title="Enter Node name" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system Node name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPNODE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPNODE" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPNODE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPNODE" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPWEBSERVERPORT" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP Webserver Port</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPWEBSERVERPORT" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPWEBSERVERPORT" title="Enter Webserver Port" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system Webserver Port]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPWEBSERVERPORT" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPWEBSERVERPORT" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPWEBSERVERPORT" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPWEBSERVERPORT" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPSITE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">ERP Site Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPSITE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPSITE" title="Enter Site Name" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system Site name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPSITE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPSITE" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPSITE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPSITE" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPSICOMPINTERFACE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Stock Issue Component Interface Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPSICOMPINTERFACE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPSICOMPINTERFACE" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system Stock Issue Component Interface name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPSICOMPINTERFACE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPSICOMPINTERFACE" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPSICOMPINTERFACE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPSICOMPINTERFACE" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSEXP_PUTAWAY_CI_NAME" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Express Putaway Component Interface Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSEXP_PUTAWAY_CI_NAME" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSEXP_PUTAWAY_CI_NAME" title="Enter Express Putaway Component Interface Name" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Express Putaway Component Interface Name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSEXP_PUTAWAY_CI_NAME" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSEXP_PUTAWAY_CI_NAME" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSEXP_PUTAWAY_CI_NAME" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSEXP_PUTAWAY_CI_NAME" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSRMA_CI_NAME" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Enterprise system RMA Component Interface Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSRMA_CI_NAME" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSRMA_CI_NAME" title="Enter RMA Component Interface Name" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system RMA Component Interface Name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSRMA_CI_NAME" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSRMA_CI_NAME" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSRMA_CI_NAME" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSRMA_CI_NAME" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSPRODUCTLINE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Product Line</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSPRODUCTLINE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSPRODUCTLINE" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Product Line]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSPRODUCTLINE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSPRODUCTLINE" value="LAWSON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSPRODUCTLINE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSPRODUCTLINE" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSDOWNLOADFILEPATH" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Download Path</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$brFileERP_SYS_DETAILSDOWNLOADFILEPATH" type="file" id="ContentPlaceHolder1_brFileERP_SYS_DETAILSDOWNLOADFILEPATH" style="display: none;" /><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSDOWNLOADFILEPATH" type="text" value="C:\AtPar\Download\" id="ContentPlaceHolder1_ERP_SYS_DETAILSDOWNLOADFILEPATH" class="DataEntryTextBox" style="width:150px;" /><button id="ContentPlaceHolder1_brBtnERP_SYS_DETAILSDOWNLOADFILEPATH" style="BORDER-RIGHT: #727272 1px solid; BORDER-TOP: #727272 1px solid;  FONT-SIZE: 11px;	text-align:center; TEXT-TRANSFORM: capitalize;   BORDER-LEFT: #727272 1px solid;    BORDER-BOTTOM: #727272 1px solid;    FONT-FAMILY:Verdana, Geneva, sans-serif;    background-color:#ECE9D8;" onclick="Javascript:AddBrowseFilePath(&#39;ContentPlaceHolder1_brFileERP_SYS_DETAILSDOWNLOADFILEPATH&#39;,&#39;ContentPlaceHolder1_ERP_SYS_DETAILSDOWNLOADFILEPATH&#39;);">Browse</button></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Directory from which data to be downloaded (Specific to file system type ERPs)]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSDOWNLOADFILEPATH" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSDOWNLOADFILEPATH" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC,GEAC_AS400,PEOPLESOFT,ORACLE,LAWSON,PMM,SAP,IMMS" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSDOWNLOADFILEPATH" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSDOWNLOADFILEPATH" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSUPLOADFILEPATH" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Upload Path</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$brFileERP_SYS_DETAILSUPLOADFILEPATH" type="file" id="ContentPlaceHolder1_brFileERP_SYS_DETAILSUPLOADFILEPATH" style="display: none;" /><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSUPLOADFILEPATH" type="text" value="C:\AtPar\Upload\" id="ContentPlaceHolder1_ERP_SYS_DETAILSUPLOADFILEPATH" class="DataEntryTextBox" style="width:150px;" /><button id="ContentPlaceHolder1_brBtnERP_SYS_DETAILSUPLOADFILEPATH" style="BORDER-RIGHT: #727272 1px solid; BORDER-TOP: #727272 1px solid;  FONT-SIZE: 11px;	text-align:center; TEXT-TRANSFORM: capitalize;   BORDER-LEFT: #727272 1px solid;    BORDER-BOTTOM: #727272 1px solid;    FONT-FAMILY:Verdana, Geneva, sans-serif;    background-color:#ECE9D8;" onclick="Javascript:AddBrowseFilePath(&#39;ContentPlaceHolder1_brFileERP_SYS_DETAILSUPLOADFILEPATH&#39;,&#39;ContentPlaceHolder1_ERP_SYS_DETAILSUPLOADFILEPATH&#39;);">Browse</button></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Directory from which data to be Uploaded (Specific to file system type ERPs]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSUPLOADFILEPATH" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSUPLOADFILEPATH" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC_AS400,PEOPLESOFT,PMM,IMMS" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSUPLOADFILEPATH" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSUPLOADFILEPATH" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSUPLOADFREQUENCY" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Upload Frequency</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSUPLOADFREQUENCY" type="text" value="2" id="ContentPlaceHolder1_ERP_SYS_DETAILSUPLOADFREQUENCY" title="Enter Upload Frequency" class="DataEntryTextBox" onblur="javascript:isNumeric(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Frequency to communicate with enterprise system.  In Minutes]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSUPLOADFREQUENCY" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSUPLOADFREQUENCY" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSUPLOADFREQUENCY" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSUPLOADFREQUENCY" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSRECV_DOWNLOADFREQUENCY" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Receiving Download Frequency</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSRECV_DOWNLOADFREQUENCY" type="text" value="5" id="ContentPlaceHolder1_ERP_SYS_DETAILSRECV_DOWNLOADFREQUENCY" title="Enter Receiving Download Frequency" class="DataEntryTextBox" onblur="javascript:isNumeric(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Frequency to Download the Receive Open PO Items.  In Minutes]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSRECV_DOWNLOADFREQUENCY" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSRECV_DOWNLOADFREQUENCY" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC_AS400,IMMS" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSRECV_DOWNLOADFREQUENCY" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSRECV_DOWNLOADFREQUENCY" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSEMPLOYEE_DATALOAD_FREQ" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Employee Data Load Frequency</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSEMPLOYEE_DATALOAD_FREQ" type="text" value="5" id="ContentPlaceHolder1_ERP_SYS_DETAILSEMPLOYEE_DATALOAD_FREQ" title="Enter Employee Data Load Frequency" class="DataEntryTextBox" onblur="javascript:isNumeric(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Frequency to Download Employee Data. In Minutes]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSEMPLOYEE_DATALOAD_FREQ" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSEMPLOYEE_DATALOAD_FREQ" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC,GEAC_AS400,PEOPLESOFT,ORACLE,LAWSON,PMM,SAP,IMMS" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSEMPLOYEE_DATALOAD_FREQ" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSEMPLOYEE_DATALOAD_FREQ" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSSTOCKLESS_FILETYPE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">StockLess Item File Extension</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSSTOCKLESS_FILETYPE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSSTOCKLESS_FILETYPE" title="Enter File Extension" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[StockLess Item File Extension]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSSTOCKLESS_FILETYPE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSSTOCKLESS_FILETYPE" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSSTOCKLESS_FILETYPE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSSTOCKLESS_FILETYPE" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSPAR_ITEMLOAD_FREQUENCY" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Frequency for update items</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSPAR_ITEMLOAD_FREQUENCY" type="text" value="5" id="ContentPlaceHolder1_ERP_SYS_DETAILSPAR_ITEMLOAD_FREQUENCY" title="Enter Frequency for update items" class="DataEntryTextBox" onblur="javascript:isNumeric(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Frequency for update Par Items]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSPAR_ITEMLOAD_FREQUENCY" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSPAR_ITEMLOAD_FREQUENCY" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC_AS400,IMMS" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSPAR_ITEMLOAD_FREQUENCY" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSPAR_ITEMLOAD_FREQUENCY" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSFREQ_DL_PICKPLNS" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Frequency for download Pick Plans</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSFREQ_DL_PICKPLNS" type="text" value="1" id="ContentPlaceHolder1_ERP_SYS_DETAILSFREQ_DL_PICKPLNS" title="Enter Frequency for download Pick Plans" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Frequency for download Pick Plans]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSFREQ_DL_PICKPLNS" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSFREQ_DL_PICKPLNS" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC_AS400" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSFREQ_DL_PICKPLNS" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSFREQ_DL_PICKPLNS" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSFREQ_DL_SI" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Frequency for Download Stock Issues</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSFREQ_DL_SI" type="text" value="1" id="ContentPlaceHolder1_ERP_SYS_DETAILSFREQ_DL_SI" title="Enter Frequency for Download Stock Issues" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Frequency for Download Stock Issues]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSFREQ_DL_SI" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSFREQ_DL_SI" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MATKON,MEDITECH_XML,MEDITECH_ASCII,GEAC_AS400" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSFREQ_DL_SI" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSFREQ_DL_SI" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSPKPL_OUTPUT_FILE_TYPE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Pick plans Output File Type</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSPKPL_OUTPUT_FILE_TYPE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSPKPL_OUTPUT_FILE_TYPE" title="Enter Pick plans Output File Type" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Pick plans Output File Type]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSPKPL_OUTPUT_FILE_TYPE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSPKPL_OUTPUT_FILE_TYPE" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC_AS400" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSPKPL_OUTPUT_FILE_TYPE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSPKPL_OUTPUT_FILE_TYPE" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSRECV_NPR_REPORT_SCHTIME" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Receive NPR Schedule Time</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSRECV_NPR_REPORT_SCHTIME" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSRECV_NPR_REPORT_SCHTIME" title="Enter Receive NPR Schedule Time" class="DataEntryTextBox" onblur="javascript:isValidTime(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Receive NPR Schedule Time In 24 hours format]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSRECV_NPR_REPORT_SCHTIME" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSRECV_NPR_REPORT_SCHTIME" value="MEDITECH_MAGIC, MEDITECH_CS, MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII, MATKON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSRECV_NPR_REPORT_SCHTIME" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSRECV_NPR_REPORT_SCHTIME" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSPICK_PLAN_NPR_REPORT_SCHTIME" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Pick NPR Schedule Time</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSPICK_PLAN_NPR_REPORT_SCHTIME" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSPICK_PLAN_NPR_REPORT_SCHTIME" title="Enter Pick NPR Schedule Time" class="DataEntryTextBox" onblur="javascript:isValidTime(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Pick NPR Schedule Time In 24 hours format]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSPICK_PLAN_NPR_REPORT_SCHTIME" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSPICK_PLAN_NPR_REPORT_SCHTIME" value="MEDITECH_MAGIC, MEDITECH_CS, MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII, MATKON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSPICK_PLAN_NPR_REPORT_SCHTIME" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSPICK_PLAN_NPR_REPORT_SCHTIME" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSSI_NPR_SCHED_TIME" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Stock Issue NPR Schedule Time</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSSI_NPR_SCHED_TIME" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSSI_NPR_SCHED_TIME" title="Enter Stock Issue NPR Schedule Time" class="DataEntryTextBox" onblur="javascript:isValidTime(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Stock Issue NPR Schedule Time In 24 hours format]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSSI_NPR_SCHED_TIME" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSSI_NPR_SCHED_TIME" value="MEDITECH_MAGIC, MEDITECH_CS, MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII, MATKON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSSI_NPR_SCHED_TIME" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSSI_NPR_SCHED_TIME" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSPARITEMSLOAD_REPORT_SCHTIME" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Par Items NPR Schedule Time</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSPARITEMSLOAD_REPORT_SCHTIME" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSPARITEMSLOAD_REPORT_SCHTIME" title="Enter Par Items NPR Schedule Time" class="DataEntryTextBox" onblur="javascript:isValidTime(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Par Items NPR Schedule Time In 24 hours format]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSPARITEMSLOAD_REPORT_SCHTIME" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSPARITEMSLOAD_REPORT_SCHTIME" value="MEDITECH_MAGIC, MEDITECH_CS, MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII, MATKON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSPARITEMSLOAD_REPORT_SCHTIME" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSPARITEMSLOAD_REPORT_SCHTIME" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSCLIENTCODE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">SAP Client Code</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSCLIENTCODE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSCLIENTCODE" title="Enter SAP Client Code" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[SAP Client Code to Connect to SAP Server]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSCLIENTCODE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSCLIENTCODE" value="SAP" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSCLIENTCODE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSCLIENTCODE" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSSYSNR" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">SAP System Number</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSSYSNR" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSSYSNR" title="Enter SAP System Number" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[SAP System Number to Connect through BAPIs]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSSYSNR" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSSYSNR" value="SAP" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSSYSNR" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSSYSNR" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSPENDINGFILE_CHECK_FREQ" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Pending File check frequency</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSPENDINGFILE_CHECK_FREQ" type="text" value="5" id="ContentPlaceHolder1_ERP_SYS_DETAILSPENDINGFILE_CHECK_FREQ" class="DataEntryTextBox" onblur="javascript:isNumeric(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Frequency to run the windows service for checking pending files in upload directories]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSPENDINGFILE_CHECK_FREQ" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSPENDINGFILE_CHECK_FREQ" value="MEDITECH_CS, MEDITECH_MAGIC, MEDITECH_NUI" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSPENDINGFILE_CHECK_FREQ" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSPENDINGFILE_CHECK_FREQ" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSSUPPORT_MAILID" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Support mail id</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSSUPPORT_MAILID" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSSUPPORT_MAILID" class="DataEntryTextBox" onblur="javascript:isValidEmail(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Mail id used for file waiting notification messages]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSSUPPORT_MAILID" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSSUPPORT_MAILID" value="MEDITECH_CS, MEDITECH_MAGIC, MEDITECH_NUI" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSSUPPORT_MAILID" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSSUPPORT_MAILID" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSVERSION" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Version</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSVERSION" type="text" value="9.X.X.X" id="ContentPlaceHolder1_ERP_SYS_DETAILSVERSION" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Erp Version]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSVERSION" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSVERSION" value="LAWSON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSVERSION" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSVERSION" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSCUSTOMER_NAME" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Customer Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSCUSTOMER_NAME" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSCUSTOMER_NAME" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Customer Name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSCUSTOMER_NAME" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSCUSTOMER_NAME" value="MEDITECH_CS, MEDITECH_MAGIC, MEDITECH_NUI, GEAC_AS400" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSCUSTOMER_NAME" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSCUSTOMER_NAME" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSPAR_VENDOR_LOAD_FREQUENCY" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Par Vendor Load Frequency</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSPAR_VENDOR_LOAD_FREQUENCY" type="text" value="5" id="ContentPlaceHolder1_ERP_SYS_DETAILSPAR_VENDOR_LOAD_FREQUENCY" class="DataEntryTextBox" onblur="javascript:isNumeric(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Par Vendor Load Frequency]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSPAR_VENDOR_LOAD_FREQUENCY" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSPAR_VENDOR_LOAD_FREQUENCY" value="MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC_AS400,IMMS" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSPAR_VENDOR_LOAD_FREQUENCY" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSPAR_VENDOR_LOAD_FREQUENCY" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSPOU_SERVICE_FREQ" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">POU Service Frequency</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSPOU_SERVICE_FREQ" type="text" value="5" id="ContentPlaceHolder1_ERP_SYS_DETAILSPOU_SERVICE_FREQ" class="DataEntryTextBox" onblur="javascript:isNumeric(this);" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[POU Service Frequency]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSPOU_SERVICE_FREQ" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSPOU_SERVICE_FREQ" value="PEOPLESOFT,MEDITECH_MAGIC,MEDITECH_CS,MEDITECH_NUI,MEDITECH_XML,MEDITECH_ASCII,MATKON,GEAC_AS400,LAWSON" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSPOU_SERVICE_FREQ" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSPOU_SERVICE_FREQ" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSERPPOGENCOMPINTERFACE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">PO Generation Component Interface Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSERPPOGENCOMPINTERFACE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSERPPOGENCOMPINTERFACE" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enterprise system PO Generation Component Interface name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSERPPOGENCOMPINTERFACE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSERPPOGENCOMPINTERFACE" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSERPPOGENCOMPINTERFACE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSERPPOGENCOMPINTERFACE" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSRMA_RECEIPT_CI_NAME" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">RMA Receipt CI Name</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSRMA_RECEIPT_CI_NAME" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSRMA_RECEIPT_CI_NAME" title="Enter RMA Receipt CI Name" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[RMA Receipt CI Name]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSRMA_RECEIPT_CI_NAME" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSRMA_RECEIPT_CI_NAME" value="PEOPLESOFT" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSRMA_RECEIPT_CI_NAME" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSRMA_RECEIPT_CI_NAME" /></td>
+                </tr>
+                <tr id="ContentPlaceHolder1_TrERP_SYS_DETAILSSERVERTYPE" style="width:100%;">
+                    <td class="SearchLabel" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:30%;">Enterprise Server Type</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:25%;"><input name="ctl00$ContentPlaceHolder1$ERP_SYS_DETAILSSERVERTYPE" type="text" id="ContentPlaceHolder1_ERP_SYS_DETAILSSERVERTYPE" title="Enter Enterprise Server Type" class="DataEntryTextBox" style="width:150px;" /></td>
+                    <td class="DescriptionColor" style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:45%;">[Enter the character based on the server setup, 'T' for Test, 'S' for Production]</td>
+                    <td style="border-color:#BFBFBF;border-width:1px;border-style:solid;width:0%;"><input name="ctl00$ContentPlaceHolder1$hdn_ERP_SYS_DETAILSSERVERTYPE" type="hidden" id="ContentPlaceHolder1_hdn_ERP_SYS_DETAILSSERVERTYPE" value="IMMS" /><input name="ctl00$ContentPlaceHolder1$hdnVisible_ERP_SYS_DETAILSSERVERTYPE" type="hidden" id="ContentPlaceHolder1_hdnVisible_ERP_SYS_DETAILSSERVERTYPE" /></td>
+                </tr>
+            </table>
+
+
+

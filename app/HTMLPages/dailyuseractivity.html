@@ -1,0 +1,127 @@
+﻿
+<table border="5" width="100%" height="20%" align="center">
+    <tr>
+        <td colspan="4" style="background-color:#F8FAF9;">
+            <span style="color:red;  margin:4px 7px 2px 4px;">
+                <img src="../../Images/logo_y.jpg" height="20" width="20" />Add User
+            </span>
+
+        </td>
+    <tr>
+        <td colspan="4">
+            <span style="float:right;padding-top:15px;padding-right:10px;"><input type="button" value="Import User" ng-click="get()" /></span>
+            <span style="float:right;padding-top:15px;padding-right:300px;padding-bottom:5px;"><input type="button" value="Create User" /></span>
+        </td>
+    <tr>
+        <td style="text-align:center;color:red;">*</td>
+        <td style="width:200px;">&nbsp;User Id</td>
+        <td style="padding:5px;width:240px;"><input type="text" ng-model="USER_ID" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>&nbsp;Password Required</td>
+        <td style="padding:5px;"><input type="checkbox" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>&nbsp;Password Reset Required</td>
+        <td style="padding:5px;"><input type="checkbox" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td style="text-align:center;color:red;">*</td>
+        <td> &nbsp;Session validity Time</td>
+        <td style="padding:5px;">&nbsp;<input type="text" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td style="text-align:center;color:red;">*</td>
+        <td>&nbsp;Idle time</td>
+        <td style="padding:5px;">&nbsp;<input type="text" /></td>
+        <td></td>
+    </tr>
+    <tr style="height:80px;">
+        <td valign="top" style="text-align:center;color:red;">*</td>
+        <td valign="top">&nbsp;First Name</td>
+        <td valign="top" style="padding:5px;">&nbsp;<input type="text" ng-model="FIRST_NAME" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td style="text-align:center;color:red;">*</td>
+        <td>&nbsp;Last Name</td>
+        <td style="padding:5px;">&nbsp;<input type="text" ng-model="LAST_NAME" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>&nbsp;Middle Initial</td>
+        <td style="padding:5px;"> &nbsp;<input type="text" ng-model="MIDDLE_INITIAL" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>&nbsp;Email Id</td>
+        <td style="padding:5px;">&nbsp;<input type="text" ng-model="EMAIL_ID" /></td>
+        <td></td>
+    </tr>
+    <tr>
+
+        <td></td>
+        <td> &nbsp;Phone 1</td>
+        <td style="padding:5px;">&nbsp;<input type="text" ng-model="PHONE1" /></td>
+        <!--<td></td>-->
+    </tr>
+    <tr>
+        <td></td>
+        <td> &nbsp;Phone 2</td>
+        <td style="padding:5px;">&nbsp;<input type="text" ng-model="PHONE2" /></td>
+        <!--<td></td>-->
+    </tr>
+
+    <tr>
+        <td></td>
+        <td>&nbsp;Fax</td>
+        <td style="padding:5px;">&nbsp;<input type="text" ng-model="FAX" /></td>
+        <!--<td></td>-->
+    </tr>
+
+    <tr>
+        <td></td>
+        <td>&nbsp;Pager</td>
+        <td style="padding:5px;">&nbsp;<input type="text" ng-model="PAGER" /></td>
+        <!--<td></td>-->
+    </tr>
+    <tr>
+        <td></td>
+        <td>&nbsp;Org Group Id</td>
+        <td style="padding:5px;">
+            &nbsp;<select>
+                <option>Select Org Group</option>
+            </select>
+        </td>
+        <td>&nbsp;[Select organization Group]</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>&nbsp;Profile</td>
+        <td style="padding:5px;">
+            &nbsp;<select>
+                <option>Select Profile</option>
+            </select>
+        </td>
+        <td>&nbsp;[Select profile]</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="padding:5px;">
+            <input type="button" ng-click="delete()" value="DeleteUser" />
+            &nbsp;<span style="padding-left:520px;"><input type="button" value="Create user" /></span>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4" style="color:red;">&nbsp;*Mandatory</td>
+
+    </tr>
+</table>
